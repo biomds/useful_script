@@ -1,6 +1,6 @@
 #!/usr/bin/python3 
 __date__ = '20180917'
-__author__ = 'cheng.chen@geneseeq.com'
+__author__ = 'hengbenxianfeng@163.com'
 
 import sys
 import os
