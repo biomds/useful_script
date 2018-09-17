@@ -59,9 +59,9 @@ def write_id_list(list_sample,ana_type):
 ##(2)print analysis command line
 def print_cmd(panel,analysis_fold,run_fold,ana_type,log):
 	if 'K00' in run_fold:
-		print ("nohup Autorun_GSCAP_new_0823-2.0.py -p %s %s/20%s%s > %s 2>&1 & " % (panel,analysis_fold,run_fold,type,log))
+		print ("nohup Autorun_GSCAP_new_0823-2.0.py -p %s %s/20%s%s > %s 2>&1 & " % (panel,analysis_fold,run_fold,ana_type,log))
 	if 'E00' in run_fold:
-		print ("nohup Autorun_GSCAP_new_0823-2.0.py -p %s.X %s/20%s%s > %s 2>&1 & " % (panel,analysis_fold,run_fold,type,log))
+		print ("nohup Autorun_GSCAP_new_0823-2.0.py -p %s.X %s/20%s%s > %s 2>&1 & " % (panel,analysis_fold,run_fold,ana_type,log))
 if len(list_RT) >= 1:
 	panel_sample.append(list_RT[0])
 	write_id_list(list_RT,"_RT")
