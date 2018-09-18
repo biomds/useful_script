@@ -40,7 +40,7 @@ for i in lst:
 	elif 'Lu' in i and 'WES' not in i:
 		list_Lu.append(i)
 	else:
-		if not 'WES' in i and not 'CR' in i:
+		if not 'WES' in i or not 'CR' in i:
 			list_425.append(i)
 
 ###### generate analysis cmd and write out id.list########
