@@ -16,3 +16,11 @@ close IN;
 foreach my $k( sort keys %hash){
   print $k,"\t",$hash{$k},"\n";
 }
+
+
+### output example
+#L001	114.89
+#L002	111.07
+#L003	116.71
+#L004	118.21
+
