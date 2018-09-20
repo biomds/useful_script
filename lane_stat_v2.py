@@ -71,8 +71,17 @@ print head
 for i in dic_total:
 	a = dic_total[i]
 	a = str(a)
-	a = a.replace("'","")
-	a = a.replace("[","")
-	a = a.replace("]","")
-	a = a.replace(" ","")
+	a = a.replace("'","") # replace "'" with ""
+	a = a.replace("[","") # replace "[" with ""
+	a = a.replace("]","") # replace "]" with ""
+	a = a.replace(" ","") # replace " " with ""
 	print i+","+a
+
+###########################OUT like below####################################
+'''
+Lane,Reads,Base(G),Q20(%),Q30(%),GC(%),N(%)
+L001,764708002,114.89,98.09,94.59,45.03,0.01
+L002,753316752,111.07,98.53,96.06,47.50,0.03
+L003,785620246,116.71,98.20,95.73,48.23,0.04
+L004,795534574,118.21,98.78,96.58,48.74,0.02
+'''
