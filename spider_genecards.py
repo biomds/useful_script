@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 # @Time : 2021/11/09 09:51
-# @Author : chen cheng
+# @Author : biomds
 # @FileName: spider_genecards.py
-# @Email : cheng.chen@geneseeq.com
+# @Email : hengbenxianfeng@163.com
 # @Software: Notepad++
 
 import os
